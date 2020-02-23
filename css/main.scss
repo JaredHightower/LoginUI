@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    font-family: montserrat;
+    background: #EAEBF3;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+
+    .logo {
+    width: 120px;
+    }
+
+    h1 {
+    margin: 1em 0;
+    }
+
+    p{
+    line-height: 1.7rem;
+    }
+}
+
+.left{
+    background: #FF6153;
+    opacity: 80%;
+    padding: 1em;
+
+    p, h1 {
+        color: white;
+    }
+
+    .light{
+        font-style: italic;
+        color: (255, 255, 255, .7) !important;
+        margin-top: 2em;
+    }
+}
+
+
+.container1{
+    font-family: montserrat;
+    background: #EAEBF3;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3em;
+
+        height: 15rem;
+        width: 11rem;
+        background: #EAEBF3;
+        border-radius: 5px;
+
+        box-shadow: -3px -3px 9px #FFFFFF73, 
+        3px 3px 9px rgba(43, 48, 58, 0.24);
+    }
+    .signin{
+        color: rgb(140, 141, 150);
+    }
+
+    input{
+        width: 100%;
+        border: 2px;
+        background: #EAEBF3;
+        border-radius: 2px;
+
+        box-shadow: inset -3px -3px 7px #FFFFFF73, 
+        inset 3px 3px 7px rgba(43, 48, 58, 0.24);
+    }
+
+    button{
+            font-family: montserrat;
+            font: bold 15px arial, montserrat;
+            background:linear-gradient(#FF8585, #FF7192);
+            width: calc(100% - 3em);
+            border-radius: 3px; 
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: none;
+            color: white;
+            cursor: pointer;
+
+            box-shadow: -4px -4px 6px rgba(255, 255, 255, 0.781), 
+            4px 4px 6px rgba(43, 48, 58, 0.24);
+    }
+
+}
+
+@media only screen and(min-width: 1024px){
+   
+    .logo{
+        margin: 1em 0;
+    }
+
+    p{
+        line-height: 1.7em !important;
+    }
+
+    .inner{
+        display: grid;
+        grid-template-columns: 55% auto;
+    }
+
+    .left {
+        text-align: left;
+        padding: 0 2em;
+        height: 100vh;
+        display: grid;
+    }
+    .content{
+        padding: 0 3em;
+    }
+
+}

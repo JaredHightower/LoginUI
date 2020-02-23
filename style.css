@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding: 30px;
+    background: #EAEBF3;
+}
+.nemorphisum-1{
+    height: 50px;
+    width: 50px;
+    background: #EAEBF3;
+    border-radius: 5px;
+
+    /*---------Box-Shadow-Effect----------*/
+    /*1: The shadow effect -3px(left showdow effect)
+    the second -3px(the top showdow effect)*/
+
+    /*2: Blur effect is represented as 7px*/
+
+    /*3: The shadow effect 3px(right showdow effect)
+    the second 3px(the bottom showdow effect)*/
+
+    /*4: rgba the shadow color for the left shadow*/
+
+    box-shadow: -3px -3px 7px #FFFFFF73, 
+    3px 3px 5px rgba(43, 48, 58, 0.24);
+
+    /*---------Box-Shadow-Effect----------*/
+}
+
+.nemorphisum-2{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    background: #EAEBF3;
+    border-radius: 5px;
+    
+
+    /*---------Box-Shadow-Effect----------*/
+    /*1: The shadow effect -3px(left showdow effect)
+    the second -3px(the top showdow effect)*/
+
+    /*2: Blur effect is represented as 7px*/
+
+    /*3: The shadow effect 3px(right showdow effect)
+    the second 3px(the bottom showdow effect)*/
+
+    /*4: rgba the shadow color for the left shadow*/
+
+    box-shadow: inset -3px -3px 7px #FFFFFF73, 
+    inset 3px 3px 5px rgba(43, 48, 58, 0.24);
+
+    /*---------Box-Shadow-Effect----------*/
+}
+
+.nemorphisum-3{
+    height: 50px;
+    width: 50px;
+    background: #EAEBF3;
+    border-radius: 50%;
+
+    /*---------Box-Shadow-Effect----------*/
+    /*1: The shadow effect -3px(left showdow effect)
+    the second -3px(the top showdow effect)*/
+
+    /*2: Blur effect is represented as 7px*/
+
+    /*3: The shadow effect 3px(right showdow effect)
+    the second 3px(the bottom showdow effect)*/
+
+    /*4: rgba the shadow color for the left shadow*/
+
+    box-shadow: -3px -3px 7px #FFFFFF73, 
+    3px 3px 5px rgba(43, 48, 58, 0.24);
+
+    /*---------Box-Shadow-Effect----------*/
+}
+
